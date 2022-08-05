@@ -34,9 +34,6 @@ $ gh auth login
 ? What account do you want to log into?  [Use arrows to move, type to filter]
 > GitHub.com
   GitHub Enterprise Server
-```
-To check the status
-```shell
 $ gh auth status
 github.com
   ✓ Logged in to github.com as moonlinux (/home/amoon/.config/gh/hosts.yml)
@@ -70,10 +67,10 @@ username     git@github.com:username/meta-ecm.git (push)
 origin  git@github.com:edgeble/meta-ecm.git (fetch)
 origin  git@github.com:edgeble/meta-ecm.git (push)
 ```
-Push the changes to github repository.
-Depending on the branch you need to update below.
+Push the changes to github repository. depending on the branch you need to update below.
+use -f if we want to push multiple times based on previous pr review.
 ```shell
-$ git push username kirkstone:kirkstone -f
+$ git push -f username kirkstone:kirkstone
 ```
 #### Send a pull request
 This pull request will asked send the changes to original repository via github
