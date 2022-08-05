@@ -53,6 +53,7 @@ Do local changes in the repository and verify the changes, so that they can be r
 $ git clone git@github.com:username/meta-ecm.git
 $ git add 	# modified the files
 $ git commit -s	# add a suitable commit message to describe the changes
+(add Fixes #1 in above Signed-Off-by here #1 mean issues 1 that specific repository)
 ```
 Verify the build and feature work correctly as per the requirement.
 Add the new remote github username to the existing local branch
