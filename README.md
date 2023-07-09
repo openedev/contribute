@@ -4,7 +4,8 @@ This tutorial contains information about contribution steps and rules for Edgebl
 
 ## Steps to contribute
 
-Here are the steps to contribute [meta-ecm](https://github.com/edgeble/meta-ecm)
+Here are the steps to contribute [meta-neu6b](https://github.com/edgeble/meta-neu6b).
+Same steps applicable for other repos provided with changes in remote repo.
 
 ### I. Open an issue 
 
@@ -50,7 +51,7 @@ Clone and push the changes to repository
 
 Do local changes in the repository and verify the changes, so that they can be reviewed.
 ```shell
-$ git clone git@github.com:username/meta-ecm.git
+$ git clone git@github.com:username/meta-neu6b.git
 $ git add 	# modified the files
 $ git commit -s	# add a suitable commit message to describe the changes
 (add Fixes #1 in above Signed-Off-by here #1 mean issues 1 that specific repository)
@@ -58,15 +59,15 @@ $ git commit -s	# add a suitable commit message to describe the changes
 Verify the build and feature work correctly as per the requirement.
 Add the new remote github username to the existing local branch
 ```shell
-$ git remote add username git@github.com:username/meta-ecm.git
+$ git remote add username git@github.com:username/meta-neu6b.git
 ```
 Verify the github username is added to remote repository
 ```shell
 $ git remote -v
-username     git@github.com:username/meta-ecm.git (fetch)
-username     git@github.com:username/meta-ecm.git (push)
-origin  git@github.com:edgeble/meta-ecm.git (fetch)
-origin  git@github.com:edgeble/meta-ecm.git (push)
+username     git@github.com:username/meta-neu6b.git (fetch)
+username     git@github.com:username/meta-neu6b.git (push)
+origin  git@github.com:edgeble/meta-neu6b.git (fetch)
+origin  git@github.com:edgeble/meta-neu6b.git (push)
 ```
 Push the changes to github repository. depending on the branch you need to update below.
 use -f if we want to push multiple times based on previous pr review.
