@@ -2,31 +2,29 @@
 
 This tutorial contains information about contribution steps and rules for Edgeble AI projects
 
-## Steps to contribute
-
 Here are the steps to contribute [meta-neu6b](https://github.com/edgeble/meta-neu6b).
 Same steps applicable for other repos provided with changes in remote repo.
 
-### I. Open an issue 
+## Open an issue 
 
 Issue can be raised by reseptive contributor or maintainer
-   
-### II. Send Pull request
 
-#### add ssh-keys 
+## Authenticate
+
+### add ssh-keys 
 User need to create new pair of ssh keys and upload them to the github setting
 ```
-URI: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh
 ```
-#### install gh
+### install gh
 ```shell
 sudo apt install gh
 ```
 For more information check github cli interface.
 ```
-* URI: https://cli.github.com/manual/
+https://cli.github.com/manual/
 ```
-#### authenticate gh
+### authenticate gh
 user need to authenticate the user, select the github account, it will ask you to login 
 to github using the local web browser. Once completed it will ask enter generated 
 passphrase from the below command
@@ -41,7 +39,10 @@ github.com
   ✓ Git operations for github.com configured to use https protocol.
   ✓ Token: *******************
 ```
-#### push changes
+
+## Send PR
+
+### push changes
 Fork a copy of a repository that you manage. Forks let you make changes to
 a project without affecting the original repository. You can fetch updates
 from or submit changes to the original repository with pull requests.
